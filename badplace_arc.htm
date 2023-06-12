@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>badplace_arc(&lt;name&gt;, &lt;duration&gt;, &lt;origin&gt;, &lt;radius&gt;, &lt;height&gt;, &lt;direction&gt;, &lt;right angle&gt;, &lt;left angle&gt;, &lt;team&gt;, ...)</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>BadPlaces</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Creates a bad place arc. AI will flee this position if they can, and will not go into it if they can avoid it.
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+badplace_arc("halftrack_bp", -1, mg42.origin, 1500, 400, (1.00, 0.00, 0.00), 20, 0, "allies");
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 9</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;name&gt; The name of the bad place. If name is not "", the bad place can be moved or deleted by using the unique name.</LI>
+<LI>2 : &lt;duration&gt; If duration &gt; 0, the bad place will automatically delete itself after this time.  If duration &lt;= 0, the bad place must have a name and will last until manually deleted.</LI>
+<LI>3 : &lt;origin&gt; The base position of the bad place.</LI>
+<LI>4 : &lt;radius&gt; The radius of the bad place.</LI>
+<LI>5 : &lt;height&gt; The height of the bad place.</LI>
+<LI>6 : &lt;direction&gt; The direction vector is used to give a reference frame for the left and right angles.</LI>
+<LI>7 : &lt;right angle&gt; The left angle and right angle are both positive angles (eg, "45, 45" will give a 90 degree arc).</LI>
+<LI>8 : &lt;left angle&gt; The left angle and right angle are both positive angles (eg, "45, 45" will give a 90 degree arc).</LI>
+<LI>9 : &lt;team&gt; You must specify at least one team for which this place is bad, but can give several.  The allowed teams are 'axis', 'allies', and 'neutral'.</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 0</H2>
+<BR>
+<UL>
+<PRE>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

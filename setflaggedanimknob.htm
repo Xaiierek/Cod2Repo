@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>setflaggedanimknob(&lt;notifyname&gt;, &lt;anim&gt;, &lt;tree&gt;, &lt;weight&gt;, &lt;time&gt;, &lt;rate&gt;)</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>Animation</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Set the Knob values of an animation
+</PRE>
+<BR>
+<H2>Call this function on</H2>
+<BR>
+<PRE>
+&lt;entity&gt;
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+ai setflaggedanimknob("animdone", %corner_right_stand_alert2aimstraight , 0.01, 0, 1);
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 2</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;notifyname&gt; notify to send when complete</LI>
+<LI>2 : &lt;anim&gt; animation in the tree to play</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 3</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;weight&gt; weight of this animation in a blend, defaults to 1.0</LI>
+<LI>2 : &lt;time&gt; time to transition to this state in seconds, defaults to 0.2f</LI>
+<LI>3 : &lt;rate&gt; playback rate of the animation, defaults to 1.0</LI>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

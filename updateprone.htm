@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>updateprone( &lt;animation A&gt; , &lt;animation B&gt;, &lt;goal weight&gt;, &lt;goal time&gt;, &lt;rate&gt;)</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>AI</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Set the actor to exit the prone position.
+</PRE>
+<BR>
+<H2>Call this function on</H2>
+<BR>
+<PRE>
+&lt;actor&gt; An actor
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+ self UpdateProne( %prone_shootfeet_straight45up, %prone_shootfeet_straight45down, 1, 0.05, 1 );
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 5</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;animation A&gt; The first animation to lerp between.</LI>
+<LI>2 : &lt;animation B&gt; The second animation to lerp between.</LI>
+<LI>3 : &lt;goal weight&gt; The blend amount between the two animations.</LI>
+<LI>4 : &lt;goal time&gt; The time to lerp to the new blend.</LI>
+<LI>5 : &lt;rate&gt; The animation play rate.</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 0</H2>
+<BR>
+<UL>
+<PRE>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

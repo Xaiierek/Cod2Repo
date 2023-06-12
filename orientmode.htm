@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>orientmode( &lt;orient mode&gt;, &lt;face angle&gt; | &lt;direction vector&gt; | &lt;face point&gt; ) </H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>AI</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Set the orient mode of this actor.
+</PRE>
+<BR>
+<H2>Call this function on</H2>
+<BR>
+<PRE>
+&lt;actor&gt; An actor
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+randAlly OrientMode("face direction", level.player.origin-randAlly.origin );
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 1</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;orient mode&gt; (const string) OrientMode must be 'face angle', 'face current', 'face direction', 'face enemy', 'face enemy or motion', 'face goal', 'face motion', 'face point', or 'face default'</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 3</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;face angle&gt; (float) The yaw angle to face if orient mode is 'face angle'</LI>
+<LI>2 : &lt;direction vector&gt; (vector) The direction vector to face if orient mode is 'face direction'</LI>
+<LI>3 : &lt;face position&gt; (vector) The point to face if orient mode is 'face point'</LI>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

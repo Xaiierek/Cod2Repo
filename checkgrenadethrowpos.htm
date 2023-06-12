@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>checkgrenadethrowpos( &lt;hand offset&gt;, &lt;method&gt;, &lt;targetpos&gt; )</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>AI</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Checks whether the actor can throw a grenade at a given position. If he can't then result will be undefined, otherwise the result is the resultant velocity vector
+</PRE>
+<BR>
+<H2>Call this function on</H2>
+<BR>
+<PRE>
+&lt;actor&gt; An actor
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+throwvel = self checkGrenadeThrowPos(armOffset, "min energy", targetPos);
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 3</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;hand offset&gt; (vector) the estimated offset of the hand for the throw</LI>
+<LI>2 : &lt;method&gt; (vector) The grenade toss method. Can be 'min energy', 'min time', and 'max tune'</LI>
+<LI>3 : &lt;targetpos&gt; (vector) The target position</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 0</H2>
+<BR>
+<UL>
+<PRE>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

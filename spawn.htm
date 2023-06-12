@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>spawn(&lt;classname&gt;, &lt;origin&gt;, &lt;flags&gt;, &lt;radius&gt;, &lt;height&gt;)</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>Spawn</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Spawns a new entity and returns a reference to the entity 
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+ org = spawn("script_origin",self getorigin());
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 2</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;classname&gt; The name of the class to spawn (constant string)</LI>
+<LI>2 : &lt;origin&gt; The position where the entity is to be spawned (vector)</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 3</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;flags&gt; spawn flags (integer)</LI>
+<LI>2 : &lt;radius&gt; If the entity is a 'trigger_radius' entity then this is the radius of the trigger. Otherwise this parameter is invalid.</LI>
+<LI>3 : &lt;height&gt; If the entity is a 'trigger_radius' entity then this is the height of the trigger. Otherwise this parameter is invalid.</LI>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

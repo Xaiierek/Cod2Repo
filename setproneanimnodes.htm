@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>setproneanimnodes(&lt;down angle&gt;, &lt;up angle&gt;, &lt;low prone animation&gt; , &lt;straight prone animation&gt;, &lt;high prone animation&gt;)</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>AI</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Set the prone animation nodes, as well as highest and lowest possible aim angles for this character.
+</PRE>
+<BR>
+<H2>Call this function on</H2>
+<BR>
+<PRE>
+&lt;actor&gt; An actor
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+ self SetProneAnimNodes(-45, 45, %prone_legsdown, %prone_legsstraight, %prone_legsup);
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 5</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;down angle&gt;(float) The lowest allowable pitch in degrees for aiming. Must be less than 0</LI>
+<LI>2 : &lt;up angle&gt;(float) The highest allowable pitch in degrees for aiming. Must be greater than 0</LI>
+<LI>3 : &lt;low prone animation&gt; The low prone animation.</LI>
+<LI>4 : &lt;straight prone animation&gt; The straight prone animation.</LI>
+<LI>5 : &lt;high prone animation&gt; The high prone animation.</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 0</H2>
+<BR>
+<UL>
+<PRE>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

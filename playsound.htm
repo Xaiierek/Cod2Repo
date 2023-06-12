@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>playsound(&lt;aliasname&gt;, &lt;notification string&gt;, &lt;stoppable flag&gt;)</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>Sound</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+  Play the sound alias as if coming from the entity
+</PRE>
+<BR>
+<H2>Call this function on</H2>
+<BR>
+<PRE>
+&lt;entity&gt; An entity
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+  self playsound("Dirt_skid","skidsound",true);
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 1</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;aliasname&gt; The sound alias to play</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 2</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;notification string&gt; If present, the sound will notify this string on this entity when done. </LI>
+<LI>2 : &lt;stoppable flag&gt; If present and true, then this sound can be interrupted by another playsound command with notification string.  It is a script error for a playsound that does not have this flag set to get interrupted by another playsound with notify, or for a playsound with notify that does not have this flag set to interrupt another playsound with notify.</LI>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

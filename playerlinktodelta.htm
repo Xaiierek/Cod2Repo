@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>playerlinktodelta( &lt;linkto entity&gt;, &lt;tag&gt;, &lt;viewpercentag fraction&gt;  )</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>Player</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Attaches the player to an entity.  Any entity rotation is added to the player's view, allow the player to look around.
+</PRE>
+<BR>
+<H2>Call this function on</H2>
+<BR>
+<PRE>
+A Player Entity
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+level.player playerlinktodelta (vehicle, "tag_player", 0.5);
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 1</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;linkto entity&gt; The entity to attach the player to</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 2</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;tag&gt; The tag to attach the player to</LI>
+<LI>2 : &lt;view fraction&gt; How much the change in the tag's rotation effects the players view</LI>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>objective_add( &lt;objective_number&gt;, &lt;state&gt;, &lt;text&gt;, &lt;position&gt;, &lt;iconshader&gt; )</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>Objective</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Adds a new objective 
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+objective_add(objective_number, "active", objective_text, (closest.bomb.origin));
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 2</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;objective_number&gt; The number of the objective to add</LI>
+<LI>2 : &lt;state&gt; A string value representing the state of the objective. Valid states are "empty", "active", "invisible", "done", "current" and "failed"</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 3</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;text&gt; The text to use for the objective. This should be a valid localized text reference </LI>
+<LI>2 : &lt;position&gt; The position of the objective</LI>
+<LI>3 : &lt;iconshader&gt; The objective icon to embed</LI>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

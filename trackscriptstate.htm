@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>trackscriptstate( &lt;new state name&gt;, &lt;reason&gt; )</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>AI</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Change the script state of the actor, with a reason for the state change. The reason will be added to the history of the AI
+</PRE>
+<BR>
+<H2>Call this function on</H2>
+<BR>
+<PRE>
+&lt;actor&gt; An actor
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+ self trackScriptState( entryState , "CoverRightStandStill returned" );
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 2</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;new state name&gt; (const string) The new state name</LI>
+<LI>2 : &lt;reason&gt; (const string) The reason for the transition</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 0</H2>
+<BR>
+<UL>
+<PRE>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>setreverb(&lt;priority&gt;, &lt;room type&gt;, &lt;dry level&gt;, &lt;wet level&gt;, &lt;fade time&gt; )</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>Player</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Set the sound reverberation for the player
+</PRE>
+<BR>
+<H2>Call this function on</H2>
+<BR>
+<PRE>
+The player
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+level.player setReverb("snd_enveffectsprio_level", "stoneroom", 1, .7, 3);
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 2</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;priority&gt;: Valid priorities are "snd_enveffectsprio_level", or "snd_enveffectsprio_shellshock".</LI>
+<LI>2 : &lt;room type&gt;: string describing the type of reverb.</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 3</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;dry level&gt;: a float from 0 (no source sound) to 1 (full source sound)</LI>
+<LI>2 : &lt;wet level&gt;: a float from 0 (no effect) to 1 (full effect)</LI>
+<LI>3 : &lt;fade time&gt;: in seconds and modifies drylevel and wetlevel.</LI>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

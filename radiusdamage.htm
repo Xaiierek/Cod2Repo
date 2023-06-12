@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>radiusdamage(&lt;origin&gt;, &lt;range&gt;, &lt;max damage&gt;, &lt;min damage&gt;)</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>Damage</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+Does damage to all damageable objects within a given radius. The amount of damage is linear according to how close the object is to the radius
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+radiusdamage(level.player.origin, 500,damager,damager);
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 4</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;origin&gt; The centre of the damage.</LI>
+<LI>2 : &lt;range&gt; The radius of the damage done.</LI>
+<LI>3 : &lt;max damage&gt; The maximum damage done. This will be done to objects close to the origin</LI>
+<LI>4 : &lt;min damage&gt; The minimum damage done. This will be done to objects at the edge of the damage sphere.</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 0</H2>
+<BR>
+<UL>
+<PRE>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>

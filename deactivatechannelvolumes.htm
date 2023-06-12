@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<A HREF="../index.htm">Call of Duty Script Documentation</A>
+<BR>
+<H1>deactivatechannelvolumes(&lt;priority&gt;, &lt;fade time&gt; )</H1>
+<BR>
+</HEAD>
+<BODY>
+<H2>Module<PRE>Player</PRE></H2>
+<BR>
+<H2>Summary</H2>
+<BR>
+<PRE>
+deactivate the channel volumes for the player on the given priority level
+</PRE>
+<BR>
+<H2>Call this function on</H2>
+<BR>
+<PRE>
+The player
+</PRE>
+<BR>
+<H2>Example</H2>
+<BR>
+<PRE>
+level.player deactivateReverb("snd_enveffectsprio_level", 3);
+</PRE>
+<BR>
+<H2>Minimum Number of arguments: 1</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;priority&gt;: Valid priorities are "snd_channelvolprio_holdbreath", "snd_channelvolprio_pain", or "snd_channelvolprio_shellshock".</LI>
+</PRE></UL>
+<H2>Number of optional arguments: 1</H2>
+<BR>
+<UL>
+<PRE>
+<LI>1 : &lt;fade time&gt;: the time spent fading to the next lowest active channelvol priority level in seconds.</LI>
+</PRE></UL>
+<BR>
+<A HREF="../index.htm">Return to Function List</A><BR>
+</BODY>
+</HTML>
